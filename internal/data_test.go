@@ -70,12 +70,12 @@ func TestFetchData_SingleDomain(t *testing.T) {
 			return &apigateway.GetDomainNamesOutput{
 				Items: []types.DomainName{
 					{
-						DomainName:                aws.String("api.example.com"),
-						SecurityPolicy:            types.SecurityPolicyTls12,
-						RegionalCertificateArn:    aws.String("arn:aws:acm:us-east-1:123456789012:certificate/abc-123"),
-						DomainNameStatus:          types.DomainNameStatusAvailable,
-						EndpointConfiguration:     &types.EndpointConfiguration{Types: []types.EndpointType{types.EndpointTypeRegional}},
-						Tags:                      map[string]string{"env": "prod"},
+						DomainName:             aws.String("api.example.com"),
+						SecurityPolicy:         types.SecurityPolicyTls12,
+						RegionalCertificateArn: aws.String("arn:aws:acm:us-east-1:123456789012:certificate/abc-123"),
+						DomainNameStatus:       types.DomainNameStatusAvailable,
+						EndpointConfiguration:  &types.EndpointConfiguration{Types: []types.EndpointType{types.EndpointTypeRegional}},
+						Tags:                   map[string]string{"env": "prod"},
 					},
 				},
 			}, nil
