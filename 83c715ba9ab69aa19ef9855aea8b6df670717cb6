@@ -1,0 +1,4 @@
+lisa-design:
+- ci.yml is the mock-plugin-1 caller verbatim (mock-specific header comment dropped), with all three `uses:` pins moved from v1.5.1 to v1.5.2 (6e7fc9c04b59c7d1117938da397f8a6f8df036ab); identical to plugin-aws-vpc's merged ci.yml apart from the pin.
+- No release workflows added: W3 adds them (user decision 2026-10-13). Nothing to delete: the repo had no workflows.
+- .goreleaser.yaml: archives.format -> formats: [tar.gz]. Snapshot release before/after produced the same four archives (Darwin/Linux x arm64/x86_64, each containing only `plugin`); binary stays `plugin`, linux+darwin targets unchanged.
