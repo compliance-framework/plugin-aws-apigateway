@@ -1,0 +1,2 @@
+lisa-design:
+Never-released plugin (W3 batch 3 addendum): manifest seeded at 0.0.0 with NO bootstrap-sha on purpose, so release-please walks the 3-commit history and proposes initial-version 0.1.0. Callers and release-please-config.json are byte-identical to plugin-file-attestation main (merged W3-S2-T01 reference). release-please.yml's concurrency group has no cancel-in-progress on purpose (matches the shared reference).
