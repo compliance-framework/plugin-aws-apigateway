@@ -1,0 +1,6 @@
+lisa-design:
+- Agent bumped v0.7.0 (indirect) -> v0.9.1 via go get + go mod tidy; tidy makes agent, aws-sdk-go-v2 (config, apigateway, sts), go-hclog and go-plugin direct requirements because the code imports them. The original go.mod listed every module as // indirect (never tidied).
+- go directive already 1.26.1 before the bump; unchanged.
+- No code change needed: the plugin already stores req.GetPolicyData().AsMap() in Configure and passes it (merged with bundle data.json) to policyManager.NewPolicyProcessor, which matches the v0.7.0+ signature.
+- Plugin serves runner.RunnerV2GRPCPlugin and implements Init (protocol v2): no W2-S2-T02 work.
+- gofmt fix of internal/data_test.go (pre-existing struct-literal alignment) is a separate style: commit so the layer-1 local gate (gofmt -l . empty) passes; the shared CI on layer 2 enforces it.
