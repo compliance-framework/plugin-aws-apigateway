@@ -1,0 +1,15 @@
+# Changelog
+
+## 0.1.0 (2026-10-14)
+
+
+### Features
+
+* initial implementation of AWS API Gateway compliance plugin ([199e79b](https://github.com/compliance-framework/plugin-aws-apigateway/commit/199e79b8108a2750b94f3d179add4c82b27e549b))
+
+
+### Bug Fixes
+
+* **deps:** bump agent to v0.9.2 ([#13](https://github.com/compliance-framework/plugin-aws-apigateway/issues/13)) ([ffad7c8](https://github.com/compliance-framework/plugin-aws-apigateway/commit/ffad7c8325ccd4eacb653c17802ebfc2a442e1ba))
+* **deps:** bump compliance-framework/agent to v0.9.1 ([#1](https://github.com/compliance-framework/plugin-aws-apigateway/issues/1)) ([74d46c1](https://github.com/compliance-framework/plugin-aws-apigateway/commit/74d46c171a004e7984aba15195fd7c53cb024c53))
+* **deps:** update security fixes (gomod) [security] ([#12](https://github.com/compliance-framework/plugin-aws-apigateway/issues/12)) ([d202ba9](https://github.com/compliance-framework/plugin-aws-apigateway/commit/d202ba90c24a60f432ae43c1575d974989a3e067))
