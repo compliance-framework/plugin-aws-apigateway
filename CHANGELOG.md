@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/compliance-framework/plugin-aws-apigateway/compare/v0.1.0...v0.1.1) (2026-10-22)
+
+
+### Bug Fixes
+
+* **deps:** bump agent to v0.9.3, workflows to v1.7.0 ([#15](https://github.com/compliance-framework/plugin-aws-apigateway/issues/15)) ([04d2141](https://github.com/compliance-framework/plugin-aws-apigateway/commit/04d2141a3aed867877dd9a9b5f0e79a223e784a9))
+* **deps:** update aws-sdk-go-v2 monorepo ([#17](https://github.com/compliance-framework/plugin-aws-apigateway/issues/17)) ([5b48bbb](https://github.com/compliance-framework/plugin-aws-apigateway/commit/5b48bbbbbdb17305c1cc389d7ff9c5ed51ff6d0d))
+
 ## 0.1.0 (2026-10-14)
 
 
