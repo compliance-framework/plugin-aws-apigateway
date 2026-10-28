@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.1](https://github.com/compliance-framework/plugin-aws-apigateway/compare/v0.1.0...v0.1.1) (2026-10-28)
+
+
+### Bug Fixes
+
+* **deps:** bump agent to v0.9.3, workflows to v1.7.0 ([#15](https://github.com/compliance-framework/plugin-aws-apigateway/issues/15)) ([04d2141](https://github.com/compliance-framework/plugin-aws-apigateway/commit/04d2141a3aed867877dd9a9b5f0e79a223e784a9))
+* **deps:** bump agent to v0.9.4 ([#20](https://github.com/compliance-framework/plugin-aws-apigateway/issues/20)) ([82a6f8a](https://github.com/compliance-framework/plugin-aws-apigateway/commit/82a6f8ae89b6c5c404042e9446a15edc4ab9c3af))
+* **deps:** update aws-sdk-go-v2 monorepo ([#17](https://github.com/compliance-framework/plugin-aws-apigateway/issues/17)) ([5b48bbb](https://github.com/compliance-framework/plugin-aws-apigateway/commit/5b48bbbbbdb17305c1cc389d7ff9c5ed51ff6d0d))
+* **deps:** update module github.com/aws/aws-sdk-go-v2/service/apigateway to v1.52.2 ([#18](https://github.com/compliance-framework/plugin-aws-apigateway/issues/18)) ([81d77a4](https://github.com/compliance-framework/plugin-aws-apigateway/commit/81d77a4b38605775da142e97521e9db1f9dd652f))
+* **deps:** update module github.com/hashicorp/go-plugin to v1.8.0 ([#19](https://github.com/compliance-framework/plugin-aws-apigateway/issues/19)) ([aef7134](https://github.com/compliance-framework/plugin-aws-apigateway/commit/aef71346ad9c4ef1f24cdbd935e85e6c884dc65c))
+
 ## 0.1.0 (2026-10-14)
 
 
