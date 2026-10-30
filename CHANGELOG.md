@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/compliance-framework/plugin-aws-apigateway/compare/v0.1.1...v0.1.2) (2026-10-30)
+
+
+### Bug Fixes
+
+* **deps:** build with the go1.26.10 toolchain so Renovate can ship Go security fixes ([#21](https://github.com/compliance-framework/plugin-aws-apigateway/issues/21)) ([4e28b26](https://github.com/compliance-framework/plugin-aws-apigateway/commit/4e28b268bd4c8e13d867df318505c6b95e0c97af))
+* **deps:** update aws-sdk-go-v2 monorepo ([#25](https://github.com/compliance-framework/plugin-aws-apigateway/issues/25)) ([6f5e24a](https://github.com/compliance-framework/plugin-aws-apigateway/commit/6f5e24ad35453960e972895f368e1d9ab06dd53c))
+
 ## [0.1.1](https://github.com/compliance-framework/plugin-aws-apigateway/compare/v0.1.0...v0.1.1) (2026-10-28)
 
 
