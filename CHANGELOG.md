@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3](https://github.com/compliance-framework/plugin-aws-apigateway/compare/v0.1.2...v0.1.3) (2026-11-06)
+
+
+### Bug Fixes
+
+* **deps:** update aws-sdk-go-v2 monorepo ([#29](https://github.com/compliance-framework/plugin-aws-apigateway/issues/29)) ([384e605](https://github.com/compliance-framework/plugin-aws-apigateway/commit/384e605d16f51edc1f6950c6fb1c8a70ba36ab5d))
+* **deps:** update module github.com/aws/aws-sdk-go-v2/config to v1.33.11 ([#27](https://github.com/compliance-framework/plugin-aws-apigateway/issues/27)) ([89efefe](https://github.com/compliance-framework/plugin-aws-apigateway/commit/89efefe182aaad9d6d24c90980802d55cb94ba1a))
+
 ## [0.1.2](https://github.com/compliance-framework/plugin-aws-apigateway/compare/v0.1.1...v0.1.2) (2026-11-02)
 
 
